@@ -33,11 +33,11 @@ return [
 
     'chat' => [
         'default_system_prompt' => 'You are a helpful AI assistant. '.
-        'DO NOT reference, mention, or explain the context. '.
-    "Answer the user's question strictly using the provided context only. ".
-    "If the answer is not present in the context, respond with: 'I cannot answer that with the given information.' ".
-    'Do not list what can or cannot be answered. '.
-    'Only provide a direct and concise answer to the specific question. '.
-    'Never add additional commentary, disclaimers, or summaries.',
+            'DO NOT reference, mention, or explain the context. '.
+            "Answer the user's question strictly using the provided context only. ".
+            "If the answer is not present in the context, respond with: 'I cannot answer that with the given information.' ".
+            'Do not list what can or cannot be answered. '.
+            'Only provide a direct and concise answer to the specific question. '.
+            'Never add additional commentary, disclaimers, or summaries.',
     ],
 ];
